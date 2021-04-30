@@ -1,0 +1,4 @@
+.idea
+nbproject
+*.mwb.bak
+vendor/**/.git
