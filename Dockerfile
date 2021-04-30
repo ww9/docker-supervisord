@@ -1,5 +1,7 @@
 # Usage:
-# docker rm -f supervisordtest && docker build -t supervisordtest . && docker run --rm -p 80:80 --init -it --name supervisordtest -v .:/root/app supervisordtest
+# docker rm -f supervisordtest && docker build -t supervisordtest . && docker run --rm -p 8000:80 --init -it --name supervisordtest -v E:\\dev\\docker-rodrigo:/root/app supervisordtest
+# Then open: http://127.0.0.1:8000/
+# To inspect files while container is running: docker exec -it supervisordtest bash
 # References:
 # https://github.com/adhocore/docker-lemp
 # https://github.com/wyveo/nginx-php-fpm
